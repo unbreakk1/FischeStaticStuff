@@ -1,4 +1,4 @@
-﻿package unbreakk1BONUS;
+package unbreakk1BONUS;
 
 public class Main
 {

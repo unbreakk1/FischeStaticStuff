@@ -4,19 +4,16 @@ public class BananaWorld
 {
     public static void main(String[] args)
     {
-        // Create banana 1
         BananaCounter banana1 = new BananaCounter();
-        banana1.thisBananaAteAnother(); // eats 1
+        banana1.thisBananaAteAnother(); // banana 1 eats banana
         BananaCounter.oneMoreBananaEaten(); // total +1
 
-        // Create banana 2
         BananaCounter banana2 = new BananaCounter();
-        banana2.thisBananaAteAnother(); // eats 1
+        banana2.thisBananaAteAnother(); // banana 2 eats banana
         BananaCounter.oneMoreBananaEaten(); // total +1
 
-        // Create banana 3
         BananaCounter banana3 = new BananaCounter();
-        banana3.thisBananaAteAnother(); // eats 1
+        banana3.thisBananaAteAnother(); // banana 3 eats banana
         BananaCounter.oneMoreBananaEaten(); // total +1
 
         // Print details
